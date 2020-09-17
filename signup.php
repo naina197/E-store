@@ -44,7 +44,7 @@
                         <div><?php echo $_GET['password_error']; ?> </div>
                     </div>
                     <div class="form-group">
-                        <input type="tel" name="contact" class="form-control" placeholder="Contact"  id="contact" required="true">
+                        <input type="text" class="form-control"  placeholder="Contact" maxlength="10" size="10" name="contact" required = "true">
                         <div><?php echo $_GET['contact_error']; ?> </div>
                     </div>
                     <div class="form-group">
